@@ -3,14 +3,14 @@ pipeline {
     stages {
         stage('parallel stage') {
             parallel {
-                stage ('job5'){
+                stage('job5'){
                     step{
-                        echo'run job5'
+                        echo 'run job5'
                     }
                 }
-                stage ('job6'){
+                stage('job6'){
                     step{
-                        echo'run job6'
+                        echo 'run job6'
                     }
                 }
                 
